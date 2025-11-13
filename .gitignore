@@ -1,0 +1,44 @@
+# Visual Studio / IDE
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.idea/
+
+# Build folders - ignore for any subfolder
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+**/publish/
+out/
+artifacts/
+
+# Dotnet / nuget
+project.lock.json
+project.fragment.lock.json
+project.assets.json
+*.nupkg
+packages/
+.nuget/
+
+# Runtime / logs
+*.log
+*.pid
+
+# Debug / symbols and build outputs
+*.pdb
+*.exe
+*.dll
+
+# Local config / secrets
+appsettings.*.json
+secrets.json
+.env
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
