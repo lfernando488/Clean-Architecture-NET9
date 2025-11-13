@@ -2,7 +2,8 @@
 {
     public class Produto
     {
-        public long MyProperty { get; set; }
+        public long IdProduto { get; set; }
+        public long IdCategoria { get; set; }
         public string Nome { get; set; }
         public string Descricao { get; set; }
         public decimal Preco { get; set; }
