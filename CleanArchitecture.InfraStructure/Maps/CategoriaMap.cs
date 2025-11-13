@@ -16,6 +16,7 @@ namespace CleanArchitecture.InfraStructure.Maps
                 .ValueGeneratedOnAdd();
 
             builder.Property(x => x.Descricao).HasColumnName("DESCRICAO");
+            builder.Property(x => x.DataCadastro).HasColumnName("DAT_CADASTRO");
 
             //One To Many
             builder.HasMany(x => x.Produtos).WithOne(y => y.Categoria).HasForeignKey(y => y.IdCategoria);
